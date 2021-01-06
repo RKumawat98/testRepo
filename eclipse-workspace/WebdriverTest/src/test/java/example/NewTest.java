@@ -25,6 +25,7 @@ public class NewTest {
 		}		
 		@AfterTest
 		public void afterTest() {
-			driver.quit();			
+			driver.quit();		
+			System.println("I am in after method right now");
 		}		
 }	
